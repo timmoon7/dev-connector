@@ -10,8 +10,6 @@
 - Frontend: React with Redux
 - Database: MongoDB
 
-## Url on Heroku
-
 ## Quick Start
 
 ```
