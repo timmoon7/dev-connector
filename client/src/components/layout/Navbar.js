@@ -60,7 +60,7 @@ Navbar.propTypes = {
 };
 
 const mapStateToProps = (state) => ({
-  auth: state.authReducer
+  auth: state.auth
 });
 
 export default connect(mapStateToProps, { logout })(Navbar);

@@ -42,7 +42,7 @@ CommentItem.propTypes = {
 };
 
 const mapStateToProps = (state) => ({
-  auth: state.authReducer
+  auth: state.auth
 });
 
 export default connect(mapStateToProps, { deleteComment })(CommentItem);

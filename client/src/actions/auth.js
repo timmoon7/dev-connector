@@ -93,8 +93,8 @@ export const login = (email, password) => async (dispatch) => {
   }
 };
 
-// Logout / Clear Profile
+// Logout
 export const logout = () => (dispatch) => {
-  dispatch({ type: CLEAR_PROFILE });
+  // dispatch({ type: CLEAR_PROFILE });
   dispatch({ type: LOGOUT });
 };

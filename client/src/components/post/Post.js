@@ -39,7 +39,7 @@ Post.propTypes = {
 };
 
 const mapStateToProps = (state) => ({
-  post: state.postReducer
+  post: state.post
 });
 
 export default connect(mapStateToProps, { getPost })(Post);

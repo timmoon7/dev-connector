@@ -256,7 +256,7 @@ EditProfile.propTypes = {
 };
 
 const mapStateToProps = (state) => ({
-  profile: state.profileReducer
+  profile: state.profile
 });
 
 export default connect(mapStateToProps, { createProfile, getCurrentProfile })(
