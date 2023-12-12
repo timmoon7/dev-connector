@@ -10,6 +10,10 @@
 - Frontend: React with Redux
 - Database: MongoDB
 
+## Url on Render
+
+https://dev-connector-cfu4.onrender.com/
+
 ## Quick Start
 
 ```
